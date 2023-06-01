@@ -1,9 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
-// import { makeStyles } from "@material-ui/core/styles";
 import {
   Button,
   Card,
-  CardContent,
   CardMedia,
   Typography,
 } from "@mui/material";
