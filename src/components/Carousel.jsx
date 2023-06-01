@@ -18,7 +18,7 @@ const Carousel = ({ images }) => {
 
   useEffect(() => {
     if (isSlideshowActive) {
-      timeoutRef.current = setTimeout(() => {
+      timeoutRef.current = setInterval(() => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
       }, 3000);
     }
